@@ -4,7 +4,7 @@ import { Form } from "./Componentes/Form";
 import { List } from "./Componentes/List";
 import { StoreProvider } from "./Componentes/StoreProvider";
 
-export const HOST_API = "http://localhost:8080/api";
+export const HOST_API = "http://localhost:8086/api";
 export const initialState = {
   todo: { list: [], item: {} },
 };

@@ -15,8 +15,8 @@ public class TodoService {
         return repository.findAll();
     }
 
-    public TodoModel save(TodoModel todo){
-        return repository.save(todo);
+    public TodoModel save(TodoModel todoModel){
+        return repository.save(todoModel);
     }
 
     public void delete(Long id){

@@ -21,10 +21,12 @@ export const Form = () => {
 
     fetch(HOST_API + "/todo", {
       method: "POST",
+      mode: "cors",
       body: JSON.stringify(request),
       headers: {
         "Content-Type": "application/json",
       },
+      credentials: "same-origin",
     })
       .then((response) => response.json())
       .then((todo) => {
@@ -45,10 +47,12 @@ export const Form = () => {
 
     fetch(HOST_API + "/todo", {
       method: "PUT",
+      mode: "cors",
       body: JSON.stringify(request),
       headers: {
         "Content-Type": "application/json",
       },
+      credentials: "same-origin",
     })
       .then((response) => response.json())
       .then((todo) => {
@@ -71,12 +75,12 @@ export const Form = () => {
         }}
       ></input>
       {item.id && (
-        <button id="Actualizar" class="btn btn-primary" onClick={onEdit}>
+        <button id="Actualizar" className="btn btn-primary" onClick={onEdit}>
           Actualizar
         </button>
       )}
       {!item.id && (
-        <button id="Agregar" class="btn btn-primary" onClick={onAdd}>
+        <button id="Agregar" className="btn btn-primary" onClick={onAdd}>
           Crear
         </button>
       )}

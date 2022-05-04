@@ -12,22 +12,24 @@ public class TodoController {
     @Autowired
     private TodoService service;
 
+    @CrossOrigin
     @GetMapping(value = "api/todos")
     public Iterable<TodoModel> list(){
         return service.list();
     }
-    
+
+    @CrossOrigin
     @PostMapping(value = "api/todo")
-    public TodoModel save(@RequestBody TodoModel todo){
-        return service.save(todo);
+    public TodoModel save(@RequestBody TodoModel todoModel){
+        return service.save(todoModel);
     }
 
     @PutMapping(value = "api/todo")
-    public TodoModel update(@RequestBody TodoModel todo){
-        if(todo.getId() != null){
-            return service.save(todo);
+    public TodoModel update(@RequestBody TodoModel todoModel){
+        if(todoModel.getId() != null){
+            return service.save(todoModel);
         }
-        throw new RuntimeException("No existe el id para actualziar");
+        throw new RuntimeException("No existe el id para actualizar");
     }
 
     @DeleteMapping(value = "api/{id}/todo")

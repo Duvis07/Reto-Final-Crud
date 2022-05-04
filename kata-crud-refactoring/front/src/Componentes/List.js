@@ -52,7 +52,7 @@ export const List = () => {
   };
   return (
     <div className="tabla">
-      <table class="table table-striped table-dark table-hover">
+      <table className="table table-striped table-dark table-hover">
         <thead>
           <tr>
             <th scope="col">ID</th>
@@ -79,7 +79,7 @@ export const List = () => {
                   <button
                     id="Eliminar"
                     type="button"
-                    class="btn btn-danger"
+                    className="btn btn-danger"
                     onClick={() => onDelete(todo.id)}
                   >
                     Eliminar
@@ -88,7 +88,7 @@ export const List = () => {
                 <td>
                   <button
                     id="Editar"
-                    class="btn btn-primary"
+                    className="btn btn-primary"
                     onClick={() => onEdit(todo)}
                   >
                     Editar
