@@ -1,13 +1,7 @@
-package co.com.sofka.crud.Models;
+package co.com.sofka.crud.DTO;
 
-import javax.persistence.*;
+public class TodoDTO {
 
-@Entity
-@Table(name = "tareas")
-public class TodoModel {
-    @Id
-    @GeneratedValue(strategy = GenerationType.IDENTITY)
-    @Column(unique = true, nullable = false)
     private Long id;
 
     private boolean completed;
@@ -15,13 +9,10 @@ public class TodoModel {
     private String groupListId;
 
 
-
-
-    public TodoModel() {
-
+    public TodoDTO() {
     }
 
-    public TodoModel(Long id, boolean completed, String name, String groupListId) {
+    public TodoDTO(Long id, boolean completed, String name, String groupListId) {
         this.id = id;
         this.completed = completed;
         this.name = name;
