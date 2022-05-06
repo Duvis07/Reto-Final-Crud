@@ -5,9 +5,7 @@ import { HOST_API } from "../Componentes/reducer";
 import "./Styles.css";
 
 export const List = () => {
-  const {
-    dispatch,
-    state: { todo, lists },
+  const { dispatch, state: { todo, lists },
   } = useContext(Store);
   const currentTodos = todo.list;
   const currentList = lists.list;

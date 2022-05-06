@@ -15,7 +15,7 @@ public class TodoListModel {
     private String name;
     @OneToMany(fetch = FetchType.EAGER)
     @JoinColumn(name = "groupListId")
-    private List<TodoModel> grupoTodoList;
+    private Set<TodoModel> grupoTodoList;
 
     public TodoListModel() {
     }

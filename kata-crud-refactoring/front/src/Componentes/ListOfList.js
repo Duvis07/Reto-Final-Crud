@@ -10,7 +10,7 @@ const ListOfList = () => {
   const currentList = lists.list;
 
   useEffect(() => {
-    fetch(HOST_API + "/todoLists")
+    fetch(HOST_API + "/todoslist")
       .then((response) => response.json())
       .then((list) => {
         dispatch({ type: "update-listOfList", list });
@@ -18,7 +18,7 @@ const ListOfList = () => {
   }, [dispatch]);
 
   const onDelete = (id) => {
-    fetch(HOST_API + "/" + id + "/todoList", {
+    fetch(HOST_API + "/" + id + "/todoslist", {
       method: "DELETE",
     }).then((list) => {
       dispatch({ type: "delete-list", id });

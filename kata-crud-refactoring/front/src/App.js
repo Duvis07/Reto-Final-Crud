@@ -1,8 +1,6 @@
 import React from "react";
 import List from "./Componentes/List.js";
 
-import FormTodo from "./Componentes/FormTodo";
-
 import { StoreProvider } from "./Componentes/StoreProvider";
 
 import FormTodoList from "./Componentes/FormTodoList";

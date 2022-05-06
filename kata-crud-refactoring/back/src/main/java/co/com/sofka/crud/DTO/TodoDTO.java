@@ -6,13 +6,13 @@ public class TodoDTO {
 
     private boolean completed;
     private String name;
-    private String groupListId;
+    private Long groupListId;
 
 
     public TodoDTO() {
     }
 
-    public TodoDTO(Long id, boolean completed, String name, String groupListId) {
+    public TodoDTO(Long id, boolean completed, String name, Long groupListId) {
         this.id = id;
         this.completed = completed;
         this.name = name;
@@ -43,11 +43,11 @@ public class TodoDTO {
         this.name = name;
     }
 
-    public String getGroupListId() {
+    public Long getGroupListId() {
         return groupListId;
     }
 
-    public void setGroupListId(String groupListId) {
+    public void setGroupListId(Long groupListId) {
         this.groupListId = groupListId;
     }
 }
