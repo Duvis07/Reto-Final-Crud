@@ -5,7 +5,9 @@ import { HOST_API } from "../Componentes/reducer";
 import "./Styles.css";
 
 export const List = () => {
-  const { dispatch, state: { todo, lists },
+  const {
+    dispatch,
+    state: { todo, lists },
   } = useContext(Store);
   const currentTodos = todo.list;
   const currentList = lists.list;
@@ -90,7 +92,7 @@ export const List = () => {
                     <td id="TitleText">{list.name}</td>
                     <td>
                       <button
-                        className="deleteListButton"
+                      className="eliminar"
                         onClick={() => onDeleteList(list.id)}
                       >
                         Eliminar
@@ -102,9 +104,11 @@ export const List = () => {
                       <FormTodo groupListId={list.id} />
                     </td>
                   </tr>
+
                   <tr>
-                    <td>Tarea</td>
-                    <td>¿Completado?</td>
+                    <td className="td">Id</td>
+                    <td className="td">Tarea</td>
+                    <td className="td">¿Completado?</td>
                   </tr>
                   {currentTodos.map((todo) => {
                     if (todo.groupListId === list.id) {
@@ -113,6 +117,7 @@ export const List = () => {
                           key={todo.id}
                           style={todo.completed ? decorationDone : {}}
                         >
+                          <td>{todo.id}</td>
                           <td>{todo.name}</td>
                           <td>
                             <input
@@ -125,7 +130,7 @@ export const List = () => {
                           </td>
                           <td>
                             <button
-                              className="DeleteButton"
+                              className="eliminar"
                               onClick={() => onDelete(todo.id)}
                             >
                               Eliminar
@@ -133,8 +138,8 @@ export const List = () => {
                           </td>
                           <td>
                             <button
-                              className="EditButton"
                               onClick={() => onEdit(todo)}
+                              className="editar"
                             >
                               Editar
                             </button>

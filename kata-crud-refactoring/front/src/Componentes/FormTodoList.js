@@ -43,6 +43,7 @@ const FormTodoList = () => {
       <form ref={formRef}>
         <h3 id="Listas">Listas</h3>
         <input
+        className="input"
           type="text"
           name="name"
           placeholder="Nombre de tu lista"
@@ -55,13 +56,13 @@ const FormTodoList = () => {
           }}
         ></input>
         {!item.id && (
-          <button disabled={isDisabled} id="Agregarlist" onClick={onAdd}>
+          <button className="agregar" disabled={isDisabled} onClick={onAdd}>
             Crear
           </button>
         )}
 
         {isDisabled && hasWritten && (
-          <p className="MinimunLength">Minimo 4 caracteres</p>
+          <p className="MinimunLength">Minimo 5 caracteres</p>
         )}
       </form>
     </Fragment>

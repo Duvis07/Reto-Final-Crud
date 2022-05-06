@@ -1,73 +1,67 @@
-/* body {
+body {
   margin: 45px;
   font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
     "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-} */
+}
 
-code {
+.code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
     monospace;
 }
 
-.aceptado {
-  text-decoration-line: line-through;
+.td {
+  font-weight: 900;
 }
 
-#Agregar {
-  margin-left: 5px;
-  border-radius: 20px 20px;
-  width: 110px;
-  background: black;
-}
-
-#Agregarlist {
-  margin-left: 5px;
-  border-radius: 20px 20px;
-  color: white;
+.agregar {
+  margin-left: 3px;
+  border-radius: 10px 10px;
+  width: 80px;
+  height: 40px;
   background: blue;
-}
-
-#Eliminar {
-  margin-left: 5px;
-  border-radius: 20px 20px;
-  background: red;
-}
-#Actualizar {
-  margin-left: 5px;
-  border-radius: 20px 20px;
-  width: 110px;
-  background: black;
-}
-#Editar {
-  margin-left: 5px;
-  border-radius: 20px 20px;
-}
-.InArriba {
-  margin-left: 100px;
-  margin-top: 15px;
-}
-.div {
-  text-align: center;
-  margin-top: 20px;
-}
-.Input {
-  border: 3px solid;
-  border-radius: 20px 20px;
-  height: 42px;
-  width: 220px;
-}
-#h2 {
-  font-weight: 800;
-}
-
-.Title {
-  background-color: #38c9cb;
-  text-align: center;
-  font-size: 48px;
   color: white;
+}
+.eliminar {
+  border-radius: 10px 10px;
+  width: 80px;
+  height: 40px;
+  background: red;
+  color: white;
+  font-weight: 500;
+}
+
+.editar {
+  border-radius: 10px 10px;
+  width: 80px;
+  height: 40px;
+  background: green;
+  color: white;
+  font-weight: 500;
+  margin-left: 2px;
+}
+
+.input {
+  border: 2px solid;
+  border-radius: 20px 20px;
+  height: 40px;
+  width: 350px;
+}
+
+.inputDentro {
+  border: 2px solid;
+  border-radius: 20px 20px;
+  height: 35px;
+  width: 150px;
+}
+.Title {
+  background-color: green;
+  text-align: center;
+  font-size: 50px;
+  color: white;
+  font-weight: 900;
 }
 
 body {
@@ -82,52 +76,34 @@ body {
 .listDiv {
   background-color: #f3fbf1;
   border-style: solid;
-  border-color: #38c9cb;
-  border-radius: 10px;
+  border-color: black;
+  border-radius: 20px;
   margin-bottom: 3px;
   padding: 5px;
-}
-
-.CreateButton {
-  background-color: yellow;
-}
-
-.DeleteButton {
-  background-color: #f8494b;
-}
-
-.deleteListButton {
-  background-color: #f8494b;
-}
-
-.EditButton {
-  background-color: #e9d290;
 }
 
 .MinimunLength {
   color: red;
   text-align: center;
   margin-top: 0;
-  margin-bottom: 4px;
+  margin-bottom: 12px;
 }
 
 .updateButton {
-  background-color: #7fd3f7;
+  background-color: green;
 }
 
 #Listas {
-  margin-bottom: 0;
-  font-size: 24px;
+  margin-bottom: 10px;
+  font-size: 30px;
+  text-align: center;
 }
 
-/* #listForms {
-  margin-bottom: 5px;
-} */
-
-/* #TitleText {
+#listForms {
+  margin-bottom: 20px;
+}
+#TitleText {
   font-size: 18px;
-  font-style: italic;
-  text-decoration: underline;
   font-weight: bold;
-  color: #5086c1;
-} */
+  color: black;
+}

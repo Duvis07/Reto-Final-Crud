@@ -62,9 +62,9 @@ const FormTodo = ({ groupListId }) => {
 
   return (
     <Fragment>
-      <form ref={formRef} className="InArriba">
+      <form ref={formRef} >
         <input
-          className="Input"
+        className="inputDentro"
           placeholder="Agrega una Tarea"
           type="text"
           name="name"
@@ -76,15 +76,14 @@ const FormTodo = ({ groupListId }) => {
           }}
         ></input>
         {item.id && item.groupListId === groupListId && (
-          <button id="Actualizar" class="btn btn-primary" onClick={onEdit}>
+          <button  className="editar" onClick={onEdit}>
             Actualizar
           </button>
         )}
         {!item.id && (
           <button
             disabled={isDisabled}
-            id="Agregar"
-            class="btn btn-primary"
+            className="agregar"
             onClick={onAdd}
           >
             Agregar
@@ -92,7 +91,7 @@ const FormTodo = ({ groupListId }) => {
         )}
       </form>
       {isDisabled && hasWritten && (
-        <span className="MinimunLength">Minimo 4 caracteres</span>
+        <span className="MinimunLength">Minimo 5 caracteres</span>
       )}
     </Fragment>
   );
