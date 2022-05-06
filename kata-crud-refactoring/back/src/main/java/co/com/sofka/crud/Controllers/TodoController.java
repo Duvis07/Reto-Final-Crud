@@ -13,7 +13,7 @@ public class TodoController {
     private TodoService service;
 
     @CrossOrigin
-    @GetMapping(value = "api/todos")
+    @GetMapping(value = "api/todo")
     public Iterable<TodoModel> list(){
         return service.list();
     }
