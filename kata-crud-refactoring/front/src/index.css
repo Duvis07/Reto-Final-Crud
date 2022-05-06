@@ -15,19 +15,21 @@ code {
 .aceptado {
   text-decoration-line: line-through;
 }
-.tabla {
-  text-align: center;
-  width: 80%;
-  margin-left: 150px;
-  height: auto;
-  margin-top: 90px;
-}
+
 #Agregar {
   margin-left: 5px;
   border-radius: 20px 20px;
   width: 110px;
   background: black;
 }
+
+#Agregarlist {
+  margin-left: 5px;
+  border-radius: 20px 20px;
+  color: white;
+  background: blue;
+}
+
 #Eliminar {
   margin-left: 5px;
   border-radius: 20px 20px;
@@ -59,4 +61,73 @@ code {
 }
 #h2 {
   font-weight: 800;
+}
+
+.Title {
+  background-color: #38c9cb;
+  text-align: center;
+  font-size: 48px;
+  color: white;
+}
+
+body {
+  background-color: #d4fcfc;
+}
+
+.GlobalDiv {
+  display: flex;
+  justify-content: center;
+}
+
+.listDiv {
+  background-color: #f3fbf1;
+  border-style: solid;
+  border-color: #38c9cb;
+  border-radius: 10px;
+  margin-bottom: 3px;
+  padding: 5px;
+}
+
+.CreateButton {
+  background-color: yellow;
+}
+
+.DeleteButton {
+  background-color: #f8494b;
+}
+
+.deleteListButton {
+  background-color: #f8494b;
+}
+
+.EditButton {
+  background-color: #e9d290;
+}
+
+.MinimunLength {
+  color: red;
+  text-align: center;
+  margin-top: 0;
+  margin-bottom: 4px;
+}
+
+.updateButton {
+  background-color: #7fd3f7;
+}
+
+#Listas {
+  margin-bottom: 0;
+  font-size: 24px;
+}
+
+#listForms {
+  margin-bottom: 5px;
+}
+
+#TitleText {
+  font-size: 18px;
+  font-style: italic;
+  text-decoration: underline;
+  font-weight: bold;
+  color: #5086c1;
 }

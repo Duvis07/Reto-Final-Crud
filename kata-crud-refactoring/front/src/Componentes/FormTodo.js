@@ -1,8 +1,11 @@
-import React, { useContext, useRef, useState } from "react";
-import { Store, HOST_API } from "../App";
+import React, { useContext, useState, useRef, Fragment } from "react";
+import {  HOST_API } from '../Componentes/reducer';
+import { Store } from '../Componentes/Store';
+import "./Styles.css";
 
-export const Form = () => {
+export const FormTodo = ({ groupList }) => {
   const formRef = useRef(null);
+
   const {
     dispatch,
     state: { todo },
@@ -87,3 +90,6 @@ export const Form = () => {
     </form>
   );
 };
+
+export default FormTodo;
+

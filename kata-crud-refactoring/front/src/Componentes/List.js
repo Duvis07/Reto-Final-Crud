@@ -1,5 +1,8 @@
 import React, { useContext, useEffect } from "react";
-import { Store, HOST_API } from "../App";
+import FormTodo from '../Componentes/FormTodo.js';
+import { Store } from '../Componentes/Store.js';
+import {  HOST_API } from '../Componentes/reducer';
+import "./Styles.css";
 
 export const List = () => {
   const {
@@ -102,3 +105,5 @@ export const List = () => {
     </div>
   );
 };
+
+export default List;
