@@ -115,7 +115,7 @@ export const List = () => {
                       return (
                         <tr
                           key={todo.id}
-                          style={todo.completed ? decorationDone : {}}
+                          style={todo.completed ?  decorationDone : {}}
                         >
                           <td>{todo.id}</td>
                           <td>{todo.name}</td>

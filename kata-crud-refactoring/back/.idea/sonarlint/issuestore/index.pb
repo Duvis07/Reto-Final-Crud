@@ -13,3 +13,5 @@ d
 4src/main/java/co/com/sofka/crud/DTO/TodoListDTO.java,8\0\80770724cf450f51651f01db3fcc49b16d51bae8
 `
 0src/main/java/co/com/sofka/crud/DTO/TodoDTO.java,2\6\268280a599a25487fe98862d2bfdefcdb70b5e2d
+k
+;src/main/java/co/com/sofka/crud/Mapper/TodoListMappers.java,2\8\2846ef06bc43ac0851cee498baa37c1a88abe3bf
