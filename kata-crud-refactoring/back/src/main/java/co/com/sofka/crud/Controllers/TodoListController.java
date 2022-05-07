@@ -1,6 +1,7 @@
 package co.com.sofka.crud.Controllers;
 
 
+import co.com.sofka.crud.DTO.TodoListDTO;
 import co.com.sofka.crud.Models.TodoListModel;
 import co.com.sofka.crud.Services.TodoListService;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -15,20 +16,20 @@ public class TodoListController {
 
     @CrossOrigin
     @GetMapping(value = "api/todoslist")
-    public Iterable<TodoListModel> list(){
+    public Iterable<TodoListDTO> list(){
         return service.list();
     }
 
     @CrossOrigin
     @PostMapping(value = "api/todoslist")
-    public TodoListModel save(@RequestBody TodoListModel todoModel){
-        return service.save(todoModel);
+    public TodoListDTO save(@RequestBody TodoListDTO todoListDTO){
+        return service.save(todoListDTO);
     }
 
     @PutMapping(value = "api/todoslist")
-    public TodoListModel update(@RequestBody TodoListModel todoModel){
-        if(todoModel.getId() != null){
-            return service.save(todoModel);
+    public TodoListDTO update(@RequestBody TodoListDTO todoListDTO){
+        if(todoListDTO.getId() != null){
+            return service.save(todoListDTO);
         }
         throw new RuntimeException("No existe el id para actualizar");
     }

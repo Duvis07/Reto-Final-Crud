@@ -1,11 +1,21 @@
 
 4
 mvnw,5\d\5d837c4ed85ecaaf932c506e80ff5d7b9f3d590d
-m
-=src/main/java/co/com/sofka/crud/Services/TodoListService.java,f\8\f8bc93587c66f4f3dd1e6b78909f84dc6374e1ca
-i
-9src/main/java/co/com/sofka/crud/Services/TodoService.java,8\d\8d23c7f099290ff60398722a86b35b89f0cb0007
 8
 mvnw.cmd,1\f\1f1763f358c257ea3515417352b82b0165647ad1
 7
 pom.xml,4\4\442292b8a7efeabbe4cc176709b833b1792140ec
+t
+Dsrc/main/java/co/com/sofka/crud/Repositories/TodoListRepository.java,1\1\11e8ea9fb95679bb1b5eb00c03e5697a85faf4fc
+p
+@src/main/java/co/com/sofka/crud/Repositories/TodoRepository.java,5\5\55cbb3a05683fc76a677b2566ff3802a9839b9c5
+d
+4src/main/java/co/com/sofka/crud/DTO/TodoListDTO.java,8\0\80770724cf450f51651f01db3fcc49b16d51bae8
+i
+9src/main/java/co/com/sofka/crud/Services/TodoService.java,8\d\8d23c7f099290ff60398722a86b35b89f0cb0007
+m
+=src/main/java/co/com/sofka/crud/Services/TodoListService.java,f\8\f8bc93587c66f4f3dd1e6b78909f84dc6374e1ca
+e
+5src/main/java/co/com/sofka/crud/Models/TodoModel.java,b\1\b1c0613ebbb0455fbdfc9c54ab67c4a424eaf2fa
+g
+7src/main/java/co/com/sofka/crud/Mapper/TodoMappers.java,b\e\be772e96fd13e901863da2e05046109bb2b568e3

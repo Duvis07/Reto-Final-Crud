@@ -1,5 +1,7 @@
 package co.com.sofka.crud.DTO;
 
+import java.io.Serializable;
+
 public class TodoDTO {
 
     private Long id;
@@ -7,7 +9,6 @@ public class TodoDTO {
     private boolean completed;
     private String name;
     private Long groupListId;
-
 
     public TodoDTO() {
     }

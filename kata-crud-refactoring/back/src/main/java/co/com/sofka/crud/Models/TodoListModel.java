@@ -1,7 +1,6 @@
 package co.com.sofka.crud.Models;
 
 import javax.persistence.*;
-import java.util.List;
 import java.util.Set;
 
 @Entity
