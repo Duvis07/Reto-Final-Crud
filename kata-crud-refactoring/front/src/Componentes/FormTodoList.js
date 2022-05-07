@@ -4,6 +4,11 @@ import { Store } from "../Componentes/Store.js";
 import "../Estilos/FormTodoList.css";
 import "../index.css";
 
+/**
+ *
+ * @author Duvan Botero
+ */
+
 const FormTodoList = () => {
   const formRef = useRef(null);
   const {
@@ -14,6 +19,11 @@ const FormTodoList = () => {
   const [state, setState] = useState(item);
   const [isDisabled, setIsDisabled] = useState(true);
   const [hasWritten, sethasWritten] = useState(false);
+
+  /**
+   *
+   * @author Duvan Botero
+   */
 
   const onAdd = (event) => {
     event.preventDefault();
@@ -39,6 +49,10 @@ const FormTodoList = () => {
       });
   };
 
+  /**
+   * @author Duvan Botero
+   */
+
   return (
     <Fragment>
       <form ref={formRef}>
@@ -60,7 +74,6 @@ const FormTodoList = () => {
             CREATE
           </button>
         )}
-
         {isDisabled && hasWritten && (
           <p className="MinimunLength">Minimo 5 maximo 18 caracteres</p>
         )}

@@ -1,3 +1,7 @@
+/**
+ * @author Duvan Botero 
+ */
+
 export function reducer(state, action) {
   switch (action.type) {
     case "update-item":

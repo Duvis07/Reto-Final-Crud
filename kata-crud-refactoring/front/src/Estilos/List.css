@@ -33,6 +33,11 @@
   font-weight: 500;
   margin-left: 10px;
   margin-right: 30px;
+  cursor: pointer;
+  outline: none;
+  border: none;
+  box-shadow: 0 5px #999;
+  margin-bottom: 7px;
 }
 
 .eliminarTarea {
@@ -42,6 +47,11 @@
   background: red;
   color: white;
   font-weight: 500;
+  cursor: pointer;
+  outline: none;
+  border: none;
+  box-shadow: 0 5px #999;
+  margin-bottom: 7px;
 }
 
 .eliminarLista {
@@ -52,6 +62,10 @@
   color: white;
   font-weight: 500;
   margin-left: -15px;
+  cursor: pointer;
+  outline: none;
+  border: none;
+  box-shadow: 0 5px #999;
 }
 
 .listName {

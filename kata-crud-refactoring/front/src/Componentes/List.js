@@ -5,6 +5,10 @@ import { HOST_API } from "../Conexiones/Conexion.js";
 import "../Estilos/List.css";
 import "../index.css";
 
+/**
+ * @author Duvan Botero
+ */
+
 export const List = () => {
   const {
     dispatch,
@@ -21,6 +25,11 @@ export const List = () => {
       });
   }, [dispatch]);
 
+  /**
+   *
+   * @author Duvan Botero
+   */
+
   const onDelete = (id) => {
     fetch(HOST_API + "/" + id + "/todo", {
       method: "DELETE",
@@ -29,9 +38,19 @@ export const List = () => {
     });
   };
 
+  /**
+   *
+   * @author Duvan Botero
+   */
+
   const onEdit = (todo) => {
     dispatch({ type: "edit-item", item: todo });
   };
+
+  /**
+   *
+   * @author Duvan Botero
+   */
 
   const onChange = (event, todo, groupListId) => {
     const request = {
@@ -53,7 +72,6 @@ export const List = () => {
       });
   };
 
-
   useEffect(() => {
     fetch(HOST_API + "/todoslist")
       .then((response) => response.json())
@@ -61,6 +79,11 @@ export const List = () => {
         dispatch({ type: "update-listOfList", list });
       });
   }, [dispatch]);
+
+  /**
+   *
+   * @author Duvan Botero
+   */
 
   const onDeleteList = (id) => {
     const deleteAllListItem = todo.list.map((item) => {
@@ -79,6 +102,10 @@ export const List = () => {
   const decorationDone = {
     textDecoration: "line-through",
   };
+
+  /**
+   * @author Duvan Botero
+   */
 
   return (
     <Fragment>

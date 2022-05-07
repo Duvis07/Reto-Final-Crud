@@ -4,6 +4,11 @@ import { Store } from "../Componentes/Store";
 import "../Estilos/FormTodo.css";
 import "../index.css";
 
+/**
+ *@author Duvan Botero
+
+ */
+
 const FormTodo = ({ groupListId }) => {
   const formRef = useRef(null);
   const {
@@ -14,6 +19,11 @@ const FormTodo = ({ groupListId }) => {
   const [state, setState] = useState(item);
   const [isDisabled, setIsDisabled] = useState(true);
   const [hasWritten, sethasWritten] = useState(false);
+
+  /**
+   *
+   * @author Duvan Botero
+   */
 
   const onAdd = (event) => {
     event.preventDefault();
@@ -39,6 +49,11 @@ const FormTodo = ({ groupListId }) => {
       });
   };
 
+  /**
+   *
+   * @author Duvan Botero
+   */
+
   const onEdit = (event) => {
     event.preventDefault();
     const request = {
@@ -63,6 +78,9 @@ const FormTodo = ({ groupListId }) => {
       });
   };
 
+  /**
+   * @author Duvan Botero
+   */
   return (
     <Fragment>
       <form ref={formRef}>

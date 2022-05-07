@@ -4,6 +4,7 @@ import javax.persistence.*;
 import java.util.Set;
 
 /**
+ * @author Duvan Botero
  * Entidad TodoListModel con todos con sus correspondientes atributos, metodos set y get y
  * con sus contructores correspondientes, ademas se hace la relacion de uno a muchos entre las tablas
  * tareas de la entidad (TodoModel) con la tabla  listas de la entidad (TodolistModel)

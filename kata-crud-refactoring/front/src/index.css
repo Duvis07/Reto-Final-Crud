@@ -25,7 +25,7 @@ body {
   background-color: #d4fcfc;
 }
 
-.GlobalDiv {
+.Div {
   display: flex;
   justify-content: center;
 }

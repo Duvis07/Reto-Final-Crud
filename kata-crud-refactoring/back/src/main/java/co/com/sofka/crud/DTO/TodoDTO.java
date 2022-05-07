@@ -1,7 +1,7 @@
 package co.com.sofka.crud.DTO;
 
 /**
- * TodoDTO
+ * @author Duvan Botero
  */
 
 public class TodoDTO {

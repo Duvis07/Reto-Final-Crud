@@ -1,8 +1,9 @@
 package co.com.sofka.crud.DTO;
 
 /**
- * TodoListDTO
+ * @author Duvan Botero
  */
+
 public class TodoListDTO {
     private Long id;
     private String name;
