@@ -7,6 +7,13 @@ import co.com.sofka.crud.Services.TodoListService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.*;
 
+/**
+ * @Autor Duvan Botero
+ * TodoListController de listas, aca se declara el endpoint api/todoslist para hacer
+ * nuestra conexion con el  Front-End
+ * Se declaran tambien los metodos guardar, editar , eliminar
+ */
+
 @RestController
 @CrossOrigin(origins = "http://localhost:3000")
 public class TodoListController {

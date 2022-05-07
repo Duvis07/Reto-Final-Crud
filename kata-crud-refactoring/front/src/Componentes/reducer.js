@@ -31,9 +31,6 @@ export function reducer(state, action) {
       todoUp.push(action.item);
       return { ...state, todo: { list: todoUp, item: {} } };
 
-    /**
-     * Lo nuevo
-     */
 
     case "delete-list":
       const listUpDelete = state.lists;

@@ -6,6 +6,13 @@ import co.com.sofka.crud.Services.TodoService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.*;
 
+/**
+ * @Autor Duvan Botero
+ * TodoController de tareas, aca se declara el endpoint api/todo para hacer
+ * nuestra conexion con el  Front-End
+ * Se declaran tambien los metodos guardar, editar , eliminar
+ */
+
 @RestController
 @CrossOrigin(origins = "http://localhost:3000")
 public class TodoController {

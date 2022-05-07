@@ -13,6 +13,10 @@ import org.springframework.stereotype.Service;
 import java.util.ArrayList;
 import java.util.List;
 
+/**
+ * @Autor Duvan Botero
+ * TodoService se declara los métodos que se implementaran en el controller
+ */
 @Service
 public class TodoService {
 
@@ -34,19 +38,19 @@ public class TodoService {
 
     public TodoDTO save(TodoDTO todoDTO) {
         TodoModel todoModel = mappers.todoDtoAtodoModel(todoDTO);
-        if (todoModel.getName().length()>3){
+        if (todoModel.getName().length() > 3) {
             todoModel = repository.save(todoModel);
         }
         todoDTO.setId(todoModel.getId());
         return todoDTO;
     }
 
-    public void delete(Long id){
+    public void delete(Long id) {
         repository.delete(get(id));
     }
 
-    public TodoModel get(Long id){
-         return repository.findById(id).orElseThrow();
+    public TodoModel get(Long id) {
+        return repository.findById(id).orElseThrow();
     }
 
 }

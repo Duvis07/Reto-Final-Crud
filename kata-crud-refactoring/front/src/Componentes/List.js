@@ -53,7 +53,6 @@ export const List = () => {
       });
   };
 
-  //nuevo
 
   useEffect(() => {
     fetch(HOST_API + "/todoslist")

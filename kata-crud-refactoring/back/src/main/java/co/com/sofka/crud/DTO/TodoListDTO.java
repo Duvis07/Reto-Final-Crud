@@ -1,9 +1,11 @@
 package co.com.sofka.crud.DTO;
 
+/**
+ * TodoListDTO
+ */
 public class TodoListDTO {
     private Long id;
     private String name;
-
 
     public TodoListDTO() {
     }

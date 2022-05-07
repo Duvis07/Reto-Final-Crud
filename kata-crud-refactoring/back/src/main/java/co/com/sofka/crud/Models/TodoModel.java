@@ -2,6 +2,10 @@ package co.com.sofka.crud.Models;
 
 import javax.persistence.*;
 
+/**
+ * Entidad TodoModel con todos con sus correspondientes atributos, metodos set y get y
+ * con sus contructores correspondientes
+ */
 @Entity
 @Table(name = "tareas")
 public class TodoModel {
