@@ -11,11 +11,5 @@ p
 @src/main/java/co/com/sofka/crud/Repositories/TodoRepository.java,5\5\55cbb3a05683fc76a677b2566ff3802a9839b9c5
 d
 4src/main/java/co/com/sofka/crud/DTO/TodoListDTO.java,8\0\80770724cf450f51651f01db3fcc49b16d51bae8
-i
-9src/main/java/co/com/sofka/crud/Services/TodoService.java,8\d\8d23c7f099290ff60398722a86b35b89f0cb0007
-m
-=src/main/java/co/com/sofka/crud/Services/TodoListService.java,f\8\f8bc93587c66f4f3dd1e6b78909f84dc6374e1ca
-e
-5src/main/java/co/com/sofka/crud/Models/TodoModel.java,b\1\b1c0613ebbb0455fbdfc9c54ab67c4a424eaf2fa
-g
-7src/main/java/co/com/sofka/crud/Mapper/TodoMappers.java,b\e\be772e96fd13e901863da2e05046109bb2b568e3
+`
+0src/main/java/co/com/sofka/crud/DTO/TodoDTO.java,2\6\268280a599a25487fe98862d2bfdefcdb70b5e2d

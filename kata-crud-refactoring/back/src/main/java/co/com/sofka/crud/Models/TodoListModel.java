@@ -3,6 +3,9 @@ package co.com.sofka.crud.Models;
 import javax.persistence.*;
 import java.util.Set;
 
+/**
+ * Entidad TodoList
+ */
 @Entity
 @Table(name = "listas")
 public class TodoListModel {
