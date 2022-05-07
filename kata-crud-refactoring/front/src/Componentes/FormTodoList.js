@@ -2,6 +2,7 @@ import React, { useContext, useState, useRef, Fragment } from "react";
 import { HOST_API } from "../Conexiones/Conexion.js";
 import { Store } from "../Componentes/Store.js";
 import "../Estilos/FormTodoList.css";
+import "../index.css";
 
 const FormTodoList = () => {
   const formRef = useRef(null);
@@ -41,7 +42,6 @@ const FormTodoList = () => {
   return (
     <Fragment>
       <form ref={formRef}>
-        <h3 id="Listas">Listas</h3>
         <input
           className="input"
           type="text"
@@ -51,18 +51,18 @@ const FormTodoList = () => {
           id="listForms"
           onChange={(event) => {
             sethasWritten(true);
-            setIsDisabled(event.target.value.length > 3 ? false : true);
+            setIsDisabled(event.target.value.length >= 5 ? false : true);
             setState({ ...state, name: event.target.value });
           }}
         ></input>
         {!item.id && (
-          <button className="agregar" disabled={isDisabled} onClick={onAdd}>
-            Crear
+          <button className="crear" disabled={isDisabled} onClick={onAdd}>
+            CREATE
           </button>
         )}
 
         {isDisabled && hasWritten && (
-          <p className="MinimunLength">Minimo 5 caracteres</p>
+          <p className="MinimunLength">Minimo 5 maximo 18 caracteres</p>
         )}
       </form>
     </Fragment>

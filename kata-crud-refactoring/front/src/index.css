@@ -12,10 +12,6 @@ body {
     monospace;
 }
 
-.td {
-  font-weight: 900;
-}
-
 
 .Title {
   background-color: green;
@@ -34,5 +30,8 @@ body {
   justify-content: center;
 }
 
+#box {
+  margin-left: 50px;
+}
 
 

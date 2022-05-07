@@ -3,6 +3,7 @@ import FormTodo from "../Componentes/FormTodo.js";
 import { Store } from "../Componentes/Store.js";
 import { HOST_API } from "../Conexiones/Conexion.js";
 import "../Estilos/List.css";
+import "../index.css";
 
 export const List = () => {
   const {
@@ -92,10 +93,10 @@ export const List = () => {
                     <td id="TitleText">{list.name}</td>
                     <td>
                       <button
-                        className="eliminar"
+                        className="eliminarLista"
                         onClick={() => onDeleteList(list.id)}
                       >
-                        Eliminar
+                        X
                       </button>
                     </td>
                   </tr>
@@ -106,9 +107,9 @@ export const List = () => {
                   </tr>
 
                   <tr>
-                    <td className="td">Id</td>
-                    <td className="td">Tarea</td>
-                    <td className="td">¿Completado?</td>
+                    <td className="tdId">ID</td>
+                    <td className="tdTarea">TAREA</td>
+                    <td className="td">COMPLETADO</td>
                   </tr>
                   {currentTodos.map((todo) => {
                     if (todo.groupListId === list.id) {
@@ -117,10 +118,11 @@ export const List = () => {
                           key={todo.id}
                           style={todo.completed ? decorationDone : {}}
                         >
-                          <td>{todo.id}</td>
-                          <td>{todo.name}</td>
+                          <td id="listId">{todo.id}</td>
+                          <td id="listName">{todo.name}</td>
                           <td>
                             <input
+                              id="box"
                               type="checkbox"
                               defaultChecked={todo.completed}
                               onChange={(event) =>
@@ -130,10 +132,10 @@ export const List = () => {
                           </td>
                           <td>
                             <button
-                              className="eliminar"
+                              className="eliminarTarea"
                               onClick={() => onDelete(todo.id)}
                             >
-                              Eliminar
+                              DELETE
                             </button>
                           </td>
                           <td>
@@ -141,7 +143,7 @@ export const List = () => {
                               onClick={() => onEdit(todo)}
                               className="editar"
                             >
-                              Editar
+                              EDIT
                             </button>
                           </td>
                         </tr>

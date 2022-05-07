@@ -2,6 +2,7 @@ import React, { useContext, useState, useRef, Fragment } from "react";
 import { HOST_API } from "../Conexiones/Conexion.js";
 import { Store } from "../Componentes/Store";
 import "../Estilos/FormTodo.css";
+import "../index.css";
 
 const FormTodo = ({ groupListId }) => {
   const formRef = useRef(null);
@@ -39,6 +40,7 @@ const FormTodo = ({ groupListId }) => {
   };
 
   const onEdit = (event) => {
+    event.preventDefault();
     const request = {
       name: state.name,
       id: item.id,
@@ -72,23 +74,23 @@ const FormTodo = ({ groupListId }) => {
           defaultValue={item.groupListId === groupListId ? item.name : ""}
           onChange={(event) => {
             sethasWritten(true);
-            setIsDisabled(event.target.value.length > 3 ? false : true);
+            setIsDisabled(event.target.value.length >= 8 ? false : true);
             setState({ ...state, name: event.target.value });
           }}
         ></input>
         {item.id && item.groupListId === groupListId && (
           <button className="actualizar" onClick={onEdit}>
-            Actualizar
+            UPDATE
           </button>
         )}
         {!item.id && (
           <button disabled={isDisabled} className="agregar" onClick={onAdd}>
-            Agregar
+            ADD
           </button>
         )}
       </form>
       {isDisabled && hasWritten && (
-        <span className="MinimunLength">Minimo 5 caracteres</span>
+        <span className="MinimunLengthTarea">Minimo 8 caracteres</span>
       )}
     </Fragment>
   );

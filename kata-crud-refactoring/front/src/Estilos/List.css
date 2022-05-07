@@ -1,7 +1,8 @@
 #TitleText {
-  font-size: 18px;
+  font-size: 25px;
   font-weight: bold;
   color: black;
+  text-align: center;
 }
 #listForms {
   margin-bottom: 20px;
@@ -15,28 +16,65 @@
   padding: 5px;
 }
 .inputDentro {
-    border: 2px solid;
-    border-radius: 20px 20px;
-    height: 35px;
-    width: 200px;
-    text-align: center;
-  }
+  border: 2px solid;
+  border-radius: 20px 20px;
+  height: 35px;
+  width: 150px;
+  text-align: center;
+  margin-top: 12px;
+}
 
-  .editar {
-    border-radius: 10px 10px;
-    width: 80px;
-    height: 40px;
-    background: green;
-    color: white;
-    font-weight: 500;
-    margin-left: 2px;
-  }
+.editar {
+  border-radius: 10px 10px;
+  width: 80px;
+  height: 40px;
+  background: green;
+  color: white;
+  font-weight: 500;
+  margin-left: 10px;
+  margin-right: 30px;
+}
 
-  .eliminar {
-    border-radius: 10px 10px;
-    width: 80px;
-    height: 40px;
-    background: red;
-    color: white;
-    font-weight: 500;
+.eliminarTarea {
+  border-radius: 10px 10px;
+  width: 80px;
+  height: 40px;
+  background: red;
+  color: white;
+  font-weight: 500;
+}
+
+.eliminarLista {
+  border-radius: 10px 10px;
+  width: 40px;
+  height: 30px;
+  background: red;
+  color: white;
+  font-weight: 500;
+  margin-left: -15px;
+}
+
+.listName {
+  text-align: center;
+  align-items: center;
+}
+
+#listId {
+  text-align: center;
+  align-items: center;
+}
+.tdId {
+  font-weight: 900;
+  text-align: center;
+  align-items: center;
+}
+
+.tdTarea {
+  font-weight: 900;
+  text-align: left;
+  margin-left: -30px;
+}
+.td {
+    font-weight: 900;
+    text-align: right;
   }
