@@ -1,7 +1,7 @@
 import React, { useContext, useState, useRef, Fragment } from "react";
 import { HOST_API } from "../Conexiones/Conexion.js";
 import { Store } from "../Componentes/Store";
-import "../index.css";
+import "../Estilos/FormTodo.css";
 
 const FormTodo = ({ groupListId }) => {
   const formRef = useRef(null);
@@ -77,7 +77,7 @@ const FormTodo = ({ groupListId }) => {
           }}
         ></input>
         {item.id && item.groupListId === groupListId && (
-          <button className="editar" onClick={onEdit}>
+          <button className="actualizar" onClick={onEdit}>
             Actualizar
           </button>
         )}

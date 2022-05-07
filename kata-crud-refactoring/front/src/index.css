@@ -16,46 +16,7 @@ body {
   font-weight: 900;
 }
 
-.agregar {
-  margin-left: 3px;
-  border-radius: 10px 10px;
-  width: 80px;
-  height: 40px;
-  background: blue;
-  color: white;
-}
-.eliminar {
-  border-radius: 10px 10px;
-  width: 80px;
-  height: 40px;
-  background: red;
-  color: white;
-  font-weight: 500;
-}
 
-.editar {
-  border-radius: 10px 10px;
-  width: 80px;
-  height: 40px;
-  background: green;
-  color: white;
-  font-weight: 500;
-  margin-left: 2px;
-}
-
-.input {
-  border: 2px solid;
-  border-radius: 20px 20px;
-  height: 40px;
-  width: 350px;
-}
-
-.inputDentro {
-  border: 2px solid;
-  border-radius: 20px 20px;
-  height: 35px;
-  width: 150px;
-}
 .Title {
   background-color: green;
   text-align: center;
@@ -73,37 +34,5 @@ body {
   justify-content: center;
 }
 
-.listDiv {
-  background-color: #f3fbf1;
-  border-style: solid;
-  border-color: black;
-  border-radius: 20px;
-  margin-bottom: 3px;
-  padding: 5px;
-}
 
-.MinimunLength {
-  color: red;
-  text-align: center;
-  margin-top: 0;
-  margin-bottom: 12px;
-}
 
-.updateButton {
-  background-color: green;
-}
-
-#Listas {
-  margin-bottom: 10px;
-  font-size: 30px;
-  text-align: center;
-}
-
-#listForms {
-  margin-bottom: 20px;
-}
-#TitleText {
-  font-size: 18px;
-  font-weight: bold;
-  color: black;
-}

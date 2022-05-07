@@ -1,0 +1,32 @@
+#Listas {
+    margin-bottom: 10px;
+    font-size: 30px;
+    text-align: center;
+  }
+  .MinimunLength {
+    color: red;
+    text-align: center;
+    margin-top: -12px;
+    margin-bottom: 12px;
+  
+  }
+
+  .input {
+    border: 2px solid;
+    border-radius: 20px 20px;
+    height: 40px;
+    width: 200px;
+    text-align: center;
+   
+  }
+
+  .agregar {
+    margin-left: 3px;
+    border-radius: 10px 10px;
+    width: 80px;
+    height: 40px;
+    background: blue;
+    color: white;
+  }
+  
+  

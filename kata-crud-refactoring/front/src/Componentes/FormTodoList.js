@@ -1,7 +1,7 @@
 import React, { useContext, useState, useRef, Fragment } from "react";
 import { HOST_API } from "../Conexiones/Conexion.js";
 import { Store } from "../Componentes/Store.js";
-import "../index.css";
+import "../Estilos/FormTodoList.css";
 
 const FormTodoList = () => {
   const formRef = useRef(null);

@@ -2,7 +2,7 @@ import React, { Fragment, useContext, useEffect } from "react";
 import FormTodo from "../Componentes/FormTodo.js";
 import { Store } from "../Componentes/Store.js";
 import { HOST_API } from "../Conexiones/Conexion.js";
-import "../index.css";
+import "../Estilos/List.css";
 
 export const List = () => {
   const {
@@ -115,7 +115,7 @@ export const List = () => {
                       return (
                         <tr
                           key={todo.id}
-                          style={todo.completed ?  decorationDone : {}}
+                          style={todo.completed ? decorationDone : {}}
                         >
                           <td>{todo.id}</td>
                           <td>{todo.name}</td>
