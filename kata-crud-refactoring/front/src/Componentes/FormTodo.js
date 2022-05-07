@@ -1,7 +1,7 @@
 import React, { useContext, useState, useRef, Fragment } from "react";
-import { HOST_API } from "../Componentes/reducer";
+import { HOST_API } from "../Conexiones/Conexion.js";
 import { Store } from "../Componentes/Store";
-import "./Styles.css";
+import "../index.css";
 
 const FormTodo = ({ groupListId }) => {
   const formRef = useRef(null);
@@ -15,6 +15,7 @@ const FormTodo = ({ groupListId }) => {
   const [hasWritten, sethasWritten] = useState(false);
 
   const onAdd = (event) => {
+    event.preventDefault();
     const request = {
       name: state.name,
       id: null,
@@ -62,9 +63,9 @@ const FormTodo = ({ groupListId }) => {
 
   return (
     <Fragment>
-      <form ref={formRef} >
+      <form ref={formRef}>
         <input
-        className="inputDentro"
+          className="inputDentro"
           placeholder="Agrega una Tarea"
           type="text"
           name="name"
@@ -76,16 +77,12 @@ const FormTodo = ({ groupListId }) => {
           }}
         ></input>
         {item.id && item.groupListId === groupListId && (
-          <button  className="editar" onClick={onEdit}>
+          <button className="editar" onClick={onEdit}>
             Actualizar
           </button>
         )}
         {!item.id && (
-          <button
-            disabled={isDisabled}
-            className="agregar"
-            onClick={onAdd}
-          >
+          <button disabled={isDisabled} className="agregar" onClick={onAdd}>
             Agregar
           </button>
         )}

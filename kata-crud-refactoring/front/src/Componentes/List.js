@@ -1,8 +1,8 @@
 import React, { Fragment, useContext, useEffect } from "react";
 import FormTodo from "../Componentes/FormTodo.js";
 import { Store } from "../Componentes/Store.js";
-import { HOST_API } from "../Componentes/reducer";
-import "./Styles.css";
+import { HOST_API } from "../Conexiones/Conexion.js";
+import "../index.css";
 
 export const List = () => {
   const {
@@ -92,7 +92,7 @@ export const List = () => {
                     <td id="TitleText">{list.name}</td>
                     <td>
                       <button
-                      className="eliminar"
+                        className="eliminar"
                         onClick={() => onDeleteList(list.id)}
                       >
                         Eliminar

@@ -1,7 +1,7 @@
 import React, { useContext, useState, useRef, Fragment } from "react";
-import { HOST_API } from "../Componentes/reducer.js";
+import { HOST_API } from "../Conexiones/Conexion.js";
 import { Store } from "../Componentes/Store.js";
-import "./Styles.css";
+import "../index.css";
 
 const FormTodoList = () => {
   const formRef = useRef(null);
@@ -43,7 +43,7 @@ const FormTodoList = () => {
       <form ref={formRef}>
         <h3 id="Listas">Listas</h3>
         <input
-        className="input"
+          className="input"
           type="text"
           name="name"
           placeholder="Nombre de tu lista"
