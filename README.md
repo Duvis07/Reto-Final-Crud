@@ -10,6 +10,9 @@ Se adjunta evidencia de trabajo
 2-->Front-End
 ![image](https://user-images.githubusercontent.com/96325513/167270257-8a944104-acbb-4e90-937d-8c41d3672a31.png)
 
+![image](https://user-images.githubusercontent.com/96325513/167281439-556ec745-abc6-40e4-a833-2f19344c3a7e.png)
+
+
 3-->Pruebas Initarias en el  back-end
 ![image](https://user-images.githubusercontent.com/96325513/167270298-a9dabe42-540b-4caa-9260-39e90459083f.png)
 
