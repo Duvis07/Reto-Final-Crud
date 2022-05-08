@@ -1,5 +1,6 @@
 import React from "react";
 import List from "./Componentes/List.js";
+import Footer from "./Componentes/Footer.js";
 
 /**
  * @author Duvan Botero
@@ -18,6 +19,7 @@ function App() {
       </div>
       <div className="Div">
         <List />
+        <Footer />
       </div>
     </StoreProvider>
   );

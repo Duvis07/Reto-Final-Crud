@@ -3,6 +3,7 @@ package co.com.sofka.crud.Models;
 import javax.persistence.*;
 
 /**
+ * version 1.0
  * @author Duvan Botero
  * Entidad TodoModel con todos con sus correspondientes atributos, metodos set y get y
  * con sus contructores correspondientes

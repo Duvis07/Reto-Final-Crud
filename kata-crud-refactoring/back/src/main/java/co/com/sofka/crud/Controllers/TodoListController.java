@@ -9,8 +9,9 @@ import org.springframework.web.bind.annotation.*;
 
 /**
  * @Autor Duvan Botero
- * TodoListController de listas, aca se declara el endpoint api/todoslist para hacer
- * nuestra conexion con el  Front-End
+ * @version 1.0
+ * TodoListController de listas, aca se declara el endpoint api/todoslist
+ * para hacer nuestra conexion con el  Front-End
  * Se declaran tambien los metodos guardar, editar , eliminar
  */
 

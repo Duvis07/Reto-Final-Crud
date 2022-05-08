@@ -6,6 +6,7 @@ import "../EstilosCss/List.css";
 import "../index.css";
 
 /**
+ * @version 1.0
  * @author Duvan Botero
  */
 
@@ -26,8 +27,9 @@ export const List = () => {
   }, [dispatch]);
 
   /**
-   *
+   *@version 1.0
    * @author Duvan Botero
+   * onDelete elimina la lista con todas sus tareas
    */
 
   const onDelete = (id) => {
@@ -39,7 +41,7 @@ export const List = () => {
   };
 
   /**
-   *
+   *@version 1.0
    * @author Duvan Botero
    */
 
@@ -48,8 +50,9 @@ export const List = () => {
   };
 
   /**
-   *
+   *@version 1.0
    * @author Duvan Botero
+   * 
    */
 
   const onChange = (event, todo, groupListId) => {
@@ -81,7 +84,7 @@ export const List = () => {
   }, [dispatch]);
 
   /**
-   *
+   *@version 1.0
    * @author Duvan Botero
    */
 
@@ -104,7 +107,10 @@ export const List = () => {
   };
 
   /**
+   * @version 1.0
    * @author Duvan Botero
+   * table con sus correspodientes campos de id,tareas,completed  y sus botones
+   * de eliminar las listas y tareas y editar tareas
    */
 
   return (
@@ -134,7 +140,7 @@ export const List = () => {
 
                   <tr>
                     <td className="tdId">ID</td>
-                    <td className="tdTarea">TAREA</td>
+                    <td className="tdTarea">TAREAS</td>
                     <td className="td">COMPLETADO</td>
                   </tr>
                   {currentTodos.map((todo) => {

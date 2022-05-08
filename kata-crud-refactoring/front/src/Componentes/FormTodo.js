@@ -4,9 +4,10 @@ import { Store } from "../Componentes/Store";
 import "../EstilosCss/FormTodo.css";
 import "../index.css";
 
-/**
+/**¨
+ * @version 1.0
  *@author Duvan Botero
-
+ *FormTodo funcion para crear el grupo de tareas
  */
 
 const FormTodo = ({ groupListId }) => {
@@ -21,8 +22,9 @@ const FormTodo = ({ groupListId }) => {
   const [hasWritten, sethasWritten] = useState(false);
 
   /**
-   *
+   *@version 1.0
    * @author Duvan Botero
+   * * onAdd para agregar el grupo de tareas
    */
 
   const onAdd = (event) => {
@@ -50,7 +52,7 @@ const FormTodo = ({ groupListId }) => {
   };
 
   /**
-   *
+   *@version 1.0
    * @author Duvan Botero
    */
 
@@ -79,7 +81,10 @@ const FormTodo = ({ groupListId }) => {
   };
 
   /**
+   * @version 1.0
    * @author Duvan Botero
+   * Formulario para agregar las tareas, con sus correspodientes botones 
+   * de actualizar y agregar
    */
   return (
     <Fragment>
@@ -92,7 +97,7 @@ const FormTodo = ({ groupListId }) => {
           defaultValue={item.groupListId === groupListId ? item.name : ""}
           onChange={(event) => {
             sethasWritten(true);
-            setIsDisabled(event.target.value.length >= 8 ? false : true);
+            setIsDisabled(event.target.value.length >= 10 ? false : true);
             setState({ ...state, name: event.target.value });
           }}
         ></input>
@@ -108,7 +113,7 @@ const FormTodo = ({ groupListId }) => {
         )}
       </form>
       {isDisabled && hasWritten && (
-        <span className="MinimunLengthTarea">Minimo 8 caracteres</span>
+        <span className="MinimunLengthTarea">Minimo 10 caracteres</span>
       )}
     </Fragment>
   );

@@ -2,8 +2,10 @@ package co.com.sofka.crud.DTO;
 
 /**
  * @author Duvan Botero
+ * @version 1.0
+ * clase todoListDTO con sus atributos y metodos get y set
+ * clase todoListDTO para la transferencia de datos
  */
-
 public class TodoListDTO {
     private Long id;
     private String name;

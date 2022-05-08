@@ -2,6 +2,9 @@ package co.com.sofka.crud.DTO;
 
 /**
  * @author Duvan Botero
+ * @version 1.0
+ * clase todoDTO con sus atributos y metodos get y set
+ * clase todoDTO para la transferencia de datos
  */
 
 public class TodoDTO {

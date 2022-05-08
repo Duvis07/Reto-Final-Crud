@@ -1,5 +1,8 @@
 /**
- * @author Duvan Botero 
+ * @version 1.0
+ * @author Duvan Botero
+ * Se establecen  los estados crud para reducer
+ *
  */
 
 export function reducer(state, action) {
@@ -34,7 +37,6 @@ export function reducer(state, action) {
       const todoUp = state.todo.list;
       todoUp.push(action.item);
       return { ...state, todo: { list: todoUp, item: {} } };
-
 
     case "delete-list":
       const listUpDelete = state.lists;

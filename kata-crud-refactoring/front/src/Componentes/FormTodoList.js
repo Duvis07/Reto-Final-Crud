@@ -5,8 +5,9 @@ import "../EstilosCss/FormTodoList.css";
 import "../index.css";
 
 /**
- *
+ *@version 1.0
  * @author Duvan Botero
+ *  creacion de las listas para las tareas
  */
 
 const FormTodoList = () => {
@@ -21,8 +22,9 @@ const FormTodoList = () => {
   const [hasWritten, sethasWritten] = useState(false);
 
   /**
-   *
+   *@version 1.0
    * @author Duvan Botero
+   * onAdd
    */
 
   const onAdd = (event) => {
@@ -50,7 +52,10 @@ const FormTodoList = () => {
   };
 
   /**
+   * @version 1.0
    * @author Duvan Botero
+   * * Formulario para agregar una lista, con sus  boton de crear,
+   * se hacen validaciones de minimo 5 caracteres para crear una lista
    */
 
   return (
@@ -75,7 +80,7 @@ const FormTodoList = () => {
           </button>
         )}
         {isDisabled && hasWritten && (
-          <p className="MinimunLength">Minimo 5 maximo 18 caracteres</p>
+          <p className="MinimunLength">Minimo 5 caracteres</p>
         )}
       </form>
     </Fragment>

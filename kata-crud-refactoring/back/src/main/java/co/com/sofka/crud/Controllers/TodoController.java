@@ -8,8 +8,9 @@ import org.springframework.web.bind.annotation.*;
 
 /**
  * @Autor Duvan Botero
- * TodoController de tareas, aca se declara el endpoint api/todo para hacer
- * nuestra conexion con el  Front-End
+ * @version 1.0
+ * TodoController de tareas, aca se declara el endpoint api/todo
+ * para hacer nuestra conexion con el  Front-End
  * Se declaran tambien los metodos guardar, editar , eliminar
  */
 
