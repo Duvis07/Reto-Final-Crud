@@ -2,7 +2,7 @@ import React, { Fragment, useContext, useEffect } from "react";
 import FormTodo from "../Componentes/FormTodo.js";
 import { Store } from "../Componentes/Store.js";
 import { HOST_API } from "../Conexiones/Conexion.js";
-import "../Estilos/List.css";
+import "../EstilosCss/List.css";
 import "../index.css";
 
 /**

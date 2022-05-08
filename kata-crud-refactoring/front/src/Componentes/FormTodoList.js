@@ -1,7 +1,7 @@
 import React, { useContext, useState, useRef, Fragment } from "react";
 import { HOST_API } from "../Conexiones/Conexion.js";
 import { Store } from "../Componentes/Store.js";
-import "../Estilos/FormTodoList.css";
+import "../EstilosCss/FormTodoList.css";
 import "../index.css";
 
 /**
@@ -60,7 +60,7 @@ const FormTodoList = () => {
           className="input"
           type="text"
           name="name"
-          placeholder="Nombre de tu lista"
+          placeholder="Agrega una Lista"
           defaultValue={item.name}
           id="listForms"
           onChange={(event) => {

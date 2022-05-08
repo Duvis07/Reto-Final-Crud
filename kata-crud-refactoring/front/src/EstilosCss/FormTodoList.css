@@ -14,9 +14,9 @@
 
 .input {
   border: 2px solid;
-  border-radius: 20px 20px;
+  border-radius: 10px 10px;
   height: 40px;
-  width: 200px;
+  width: 300px;
   text-align: center;
   margin-top: 20px;
 }

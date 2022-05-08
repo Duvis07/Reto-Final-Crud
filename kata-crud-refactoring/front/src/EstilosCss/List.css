@@ -17,9 +17,9 @@
 }
 .inputDentro {
   border: 2px solid;
-  border-radius: 20px 20px;
+  border-radius: 10px 10px;
   height: 35px;
-  width: 150px;
+  width: 160px;
   text-align: center;
   margin-top: 12px;
 }
