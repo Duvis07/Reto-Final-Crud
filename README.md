@@ -3,6 +3,7 @@ Se adjunta evidencia de trabajo
 
 1-->Base de datos con sus correspondientes tablas
 
+
 ![image](https://user-images.githubusercontent.com/96325513/167270066-6570460d-143f-4f43-93cd-34ea68f7446d.png)
 
 ![image](https://user-images.githubusercontent.com/96325513/167270140-403b92aa-9b98-4987-a273-00cd3f15ce90.png)
