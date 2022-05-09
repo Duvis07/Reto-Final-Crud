@@ -34,7 +34,8 @@
 
 ## Link video--> https://drive.google.com/file/d/1jdpDRwx4hiRZPQLLI_rTSLmD6hT2h8K0/view?usp=sharing
 
-https://frasesbuenas.net/fotos/b5/b5507f51b88a3ae4a99ba87e4877ab57.jpg
+![image](https://user-images.githubusercontent.com/96325513/167333967-5fdd6c1b-5c48-4ed0-8892-e05432793b60.png)
+
 
 # Autor--> Duvan Arley Botero Rivillas :)
 
