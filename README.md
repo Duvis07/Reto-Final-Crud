@@ -12,6 +12,12 @@ Se adjunta evidencia de trabajo
 
 ![image](https://user-images.githubusercontent.com/96325513/167281439-556ec745-abc6-40e4-a833-2f19344c3a7e.png)
 
+3-->funcion completed
+![image](https://user-images.githubusercontent.com/96325513/167332571-f07373d5-71e7-4965-8878-78af4706a8bd.png)
+
+![image](https://user-images.githubusercontent.com/96325513/167332674-b41ee377-b6ee-4dd4-b0de-dd70927a6d48.png)
+
+
 
 3-->Pruebas Initarias en el  back-end
 ![image](https://user-images.githubusercontent.com/96325513/167270298-a9dabe42-540b-4caa-9260-39e90459083f.png)
