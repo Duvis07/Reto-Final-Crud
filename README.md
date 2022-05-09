@@ -1,5 +1,4 @@
 # Reto-Final-Crud
-Se adjunta evidencia de trabajo
 
 ## 1-->Base de datos con sus correspondientes tablas
 
@@ -26,7 +25,7 @@ Se adjunta evidencia de trabajo
 ![image](https://user-images.githubusercontent.com/96325513/167333608-09c39747-d26f-4fe4-b574-76bce6eca32e.png)
 
 
-## 3-->Pruebas Initarias en el  back-end
+## 3-->Pruebas unitarias en el  back-end
 
 ![image](https://user-images.githubusercontent.com/96325513/167270298-a9dabe42-540b-4caa-9260-39e90459083f.png)
 
@@ -34,6 +33,8 @@ Se adjunta evidencia de trabajo
 
 
 ## Link video--> https://drive.google.com/file/d/1jdpDRwx4hiRZPQLLI_rTSLmD6hT2h8K0/view?usp=sharing
+
+https://frasesbuenas.net/fotos/b5/b5507f51b88a3ae4a99ba87e4877ab57.jpg
 
 # Autor--> Duvan Arley Botero Rivillas :)
 
