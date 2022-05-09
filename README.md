@@ -35,10 +35,10 @@
 link-->https://codea.app/blog/instalar-react-js
 
 ## Recuerda los pasos para ejecutar un proyecto Spring Boot
-link-->https://codea.app/blog/instalar-react-js
+link-->https://programmerclick.com/article/9324347654/
 
 
-## Link video--> https://drive.google.com/file/d/1jdpDRwx4hiRZPQLLI_rTSLmD6hT2h8K0/view?usp=sharing
+## Link video sustentacion--> https://drive.google.com/file/d/1jdpDRwx4hiRZPQLLI_rTSLmD6hT2h8K0/view?usp=sharing
 
 ![image](https://user-images.githubusercontent.com/96325513/167333967-5fdd6c1b-5c48-4ed0-8892-e05432793b60.png)
 
