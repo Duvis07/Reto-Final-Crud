@@ -8,6 +8,7 @@ import "../index.css";
 /**
  * @version 1.0
  * @author Duvan Botero
+ * List muestra la tabla con todas las tareitas de cada grupo
  */
 
 export const List = () => {
@@ -52,7 +53,7 @@ export const List = () => {
   /**
    *@version 1.0
    * @author Duvan Botero
-   * 
+   *Put actualiza todas las tareas
    */
 
   const onChange = (event, todo, groupListId) => {
@@ -86,6 +87,7 @@ export const List = () => {
   /**
    *@version 1.0
    * @author Duvan Botero
+   * delete borra un grupo determinado de la lista
    */
 
   const onDeleteList = (id) => {

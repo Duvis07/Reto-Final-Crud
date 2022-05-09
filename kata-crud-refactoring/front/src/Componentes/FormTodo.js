@@ -36,6 +36,11 @@ const FormTodo = ({ groupListId }) => {
       groupListId: groupListId,
     };
 
+    /**
+     * @version 1.0
+     * @author Duvan Botero
+     * ruta que conecta con el método POST del back-end para agregar cada una de las tareas
+     */
     fetch(HOST_API + "/todo", {
       method: "POST",
       body: JSON.stringify(request),
@@ -65,6 +70,12 @@ const FormTodo = ({ groupListId }) => {
       groupListId: groupListId,
     };
 
+    /**
+     * @version 1.0
+     * @author Duvan Botero
+     * ruta que conecta con el método PUT del back-end para actualizar cada una de las tareas
+     */
+
     fetch(HOST_API + "/todo", {
       method: "PUT",
       body: JSON.stringify(request),
@@ -83,7 +94,7 @@ const FormTodo = ({ groupListId }) => {
   /**
    * @version 1.0
    * @author Duvan Botero
-   * Formulario para agregar las tareas, con sus correspodientes botones 
+   * Formulario para agregar las tareas, con sus correspodientes botones
    * de actualizar y agregar
    */
   return (
@@ -113,6 +124,11 @@ const FormTodo = ({ groupListId }) => {
         )}
       </form>
       {isDisabled && hasWritten && (
+        /**
+         * @version 1.0
+         * @author Duvan Botero
+         * Mensaje de validacion campos requeridos
+         */
         <span className="MinimunLengthTarea">Minimo 10 caracteres</span>
       )}
     </Fragment>

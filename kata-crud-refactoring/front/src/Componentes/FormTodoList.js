@@ -24,7 +24,7 @@ const FormTodoList = () => {
   /**
    *@version 1.0
    * @author Duvan Botero
-   * onAdd
+   * onAdd es la que me agrega listas en la tabla
    */
 
   const onAdd = (event) => {
@@ -36,6 +36,11 @@ const FormTodoList = () => {
       id: null,
     };
 
+    /**
+     * @version 1.0
+     * @author Duvan Botero
+     * ruta que conecta con el método POST del back-end para agregar cada una de las listas
+     */
     fetch(HOST_API + "/todoslist", {
       method: "POST",
       body: JSON.stringify(request),
@@ -80,6 +85,11 @@ const FormTodoList = () => {
           </button>
         )}
         {isDisabled && hasWritten && (
+          /**
+           * @version 1.0
+           * @author Duvan Botero
+           * validaciones campos requeridos
+           */
           <p className="MinimunLength">Minimo 5 caracteres</p>
         )}
       </form>

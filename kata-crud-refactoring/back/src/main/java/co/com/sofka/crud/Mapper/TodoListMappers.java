@@ -10,7 +10,7 @@ import co.com.sofka.crud.Models.TodoListModel;
 public class TodoListMappers {
     /**
      * @autor Duvan Botero
-     * todoListDtoATodoListModel transforma  datos de un objetoDTO  a una entidad
+     * todoListDto A TodoListModel transforma  datos de un objetoDTO  a una entidad
      * @param todoListDTO
      * @return
      */
@@ -24,7 +24,7 @@ public class TodoListMappers {
 
     /**
      * @autor Duvan Botero
-     * todoListModelAtodoListDto transforma  datos de una entidad a un objetoDTO
+     * todoListModel A todoListDto transforma  datos de una entidad a un objetoDTO
      * @param todoListModel
      * @return
      */
