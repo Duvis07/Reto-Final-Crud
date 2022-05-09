@@ -13,7 +13,7 @@ Se adjunta evidencia de trabajo
 ![image](https://user-images.githubusercontent.com/96325513/167281439-556ec745-abc6-40e4-a833-2f19344c3a7e.png)
 
 3-->funcion completed
-![image](https://user-images.githubusercontent.com/96325513/167332571-f07373d5-71e7-4965-8878-78af4706a8bd.png)
+![image](https://user-images.githubusercontent.com/96325513/167332832-f9bb4cbf-ffcd-4ac3-abf9-84d939a2559e.png)
 
 ![image](https://user-images.githubusercontent.com/96325513/167332674-b41ee377-b6ee-4dd4-b0de-dd70927a6d48.png)
 
