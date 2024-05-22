@@ -8,7 +8,6 @@
         <outputRelativeToContentRoot value="true" />
         <module name="crud" />
         <module name="Back" />
-        <module name="back" />
         <module name="Back-DTO" />
       </profile>
     </annotationProcessing>
